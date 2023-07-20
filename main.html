@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Gitam Event Registration </title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Event Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h2>GITAM EVENT REGISTRATION FORM</h2>
+        <h2>Event Registration Form</h2>
         <form id="eventForm">
             <label for="eventName">Event Name:</label>
             <input type="text" id="eventName" name="eventName" required>
@@ -19,9 +19,9 @@
 
             <label>Event Type:</label>
             <label for="culture">Culture</label>
-            <input type="checkbox" id="culture" name="eventType" value="Culture">
+            <input type="radio" id="culture" name="eventType" value="Culture" required>
             <label for="technical">Technical</label>
-            <input type="checkbox" id="technical" name="eventType" value="Technical">
+            <input type="radio" id="technical" name="eventType" value="Technical" required>
 
             <label for="venue">Venue:</label>
             <input type="text" id="venue" name="venue" required>
