@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gitam Event Registration </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Event Registration Form</h2>
+        <form id="eventForm">
+            <label for="eventName">Event Name:</label>
+            <input type="text" id="eventName" name="eventName" required>
+
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" rows="4" required></textarea>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label>Event Type:</label>
+            <label for="culture">Culture</label>
+            <input type="checkbox" id="culture" name="eventType" value="Culture">
+            <label for="technical">Technical</label>
+            <input type="checkbox" id="technical" name="eventType" value="Technical">
+
+            <label for="venue">Venue:</label>
+            <input type="text" id="venue" name="venue" required>
+
+            <label for="organizer">Organizer:</label>
+            <input type="text" id="organizer" name="organizer" required>
+
+            <label for="participants">Number of Participants:</label>
+            <input type="number" id="participants" name="participants" required>
+
+            <label for="artifacts">Artifacts List:</label>
+            <textarea id="artifacts" name="artifacts" rows="4" required></textarea>
+
+            <label for="tags">Tags:</label>
+            <input type="text" id="tags" name="tags" required>
+
+            <button type="submit">Register Event</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

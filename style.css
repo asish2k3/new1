@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("gitam.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: #f5e1e1; /* Light Pink */
+}
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly Transparent White */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Light shadow */
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    color: #4CAF50; /* Green */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color: #555; /* Dark Gray */
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+    background-color: #f9f9f9; /* Light Gray */
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+    color: #4CAF50; /* Green */
+}
